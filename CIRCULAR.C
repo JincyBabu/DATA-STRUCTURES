@@ -67,6 +67,8 @@ while(front_pos<=MAX-1)
 {
 printf("%d",cqueue_arr[front_pos]);
 front_pos++;
+}
+front_pos=0;
 while(front_pos<=rear_pos)
 {
 printf("%d",cqueue_arr[front_pos]);
@@ -78,6 +80,7 @@ printf("\n");
 int main()
 {
 int choice,item;
+clrscr();
 do
 {
 printf("1:Insert\n");
